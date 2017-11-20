@@ -14,6 +14,7 @@ public class One {
         } catch (IOException e){
             System.out.println("Произошла ошибка ввода-вывода");
         }
+        //размещение в массив
         for (int i = 0; i < 4; i++){
             int t = sOne.indexOf(46);
             if (t != -1){
@@ -31,6 +32,7 @@ public class One {
         difference(ipOne, ipTwo, ipDiff);
         display(ipOne, ipDiff);
     }
+    //разница значений
     private static void difference (Integer a[], Integer b[], Integer c[]){
         if ((a[0].compareTo(b[0])) <= 0){
             c[0] = b[0] - a[0];
@@ -71,6 +73,7 @@ public class One {
             c[3] = b[3] + (256 - a[3]);
         }
     }
+    //отображение
     private static void display (Integer a[], Integer c[]){
         int i = a[0], w = 0;
         int j = a[1], n = 0;

@@ -19,6 +19,7 @@ public class Two {
         n = a.toArray(n);
         for (int i = 0; i < a.size(); i++) System.out.println(i + 1 + ". " + n[i]);
     }
+    //начальные данные
     static void initialize (StringArrayList d[], HashMap<String, ArrayList<String>> h){
         d[0] = new StringArrayList();
         d[1] = new StringArrayList();
